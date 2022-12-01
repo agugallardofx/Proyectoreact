@@ -1,0 +1,105 @@
+.tituloContacto{
+    color: rgb(26, 209, 124);
+}
+.contenedor{
+    display: grid;
+    margin: 0 auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: auto;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+h2{
+    text-align: center;
+}
+.lista{
+    display: inline-block;
+}
+.icono{
+
+    align-content: center;
+    justify-content: center;
+}
+.icono-inline{
+    display: inline-block;
+    font-size: inherit;
+    height: 1.3rem;
+    overflow: visible;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.formulario_contenido{
+    width: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    height: 450px;
+    box-sizing: border-box;
+}
+input{
+    display: grid;
+    border-radius: 15px;
+    width: 80%;
+}
+select{
+    display: grid;
+    border-radius: 15px;
+    width: 80%;
+}
+
+textarea{
+    display: grid;
+    height: 250px;
+    width: 80%;
+}
+.submit{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid;
+}
+.submit:hover{
+    background-color: blue;
+    transition: 2s all;
+    border: 2px solid blue;
+}
+
+@media(min-width:768px){
+    .contenedor{
+        display: flex;
+        gap: 4vw;
+        height: 700px;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .direcciones{
+        display: block;
+        text-align: start;
+        margin:0%;
+        padding: 0%;
+        align-items: center;
+    }
+
+}
+

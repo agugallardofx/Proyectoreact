@@ -1,0 +1,27 @@
+.Footer{
+    background-color: black;
+    padding: 2rem;
+    color: white;
+}
+
+
+.corporacion-footer{
+    margin-top: 3vh;
+    text-align: center;
+}
+.notificacion{
+    display: flex;
+justify-content: center;
+}
+.notificacion input{
+    border-radius: 5px;
+    margin-left: 1vw;
+    width: 200px;
+    height: 40px;
+}
+.notificacion button{
+    border-radius: 5px;
+    margin-left: 1vw;
+    width: 200px;
+    height: 40px;
+}
