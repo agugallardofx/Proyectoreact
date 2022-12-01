@@ -37,7 +37,8 @@ return (
     </div>
     <div className="formulario_contenido">
       <label> Apellido </label>
-      <input type="text" {...register('apellido',{ required:true
+      <input type="text" {...register('apellido',{ 
+        required:true
       
       })} />
         {errors.nombre?.type === 'required' && <p> El campo nombre es obligatorio </p>
